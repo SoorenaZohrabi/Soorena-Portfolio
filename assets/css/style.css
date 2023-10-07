@@ -14,6 +14,10 @@ a:hover {
     color: #000000;
 }
 
+.navbar-brand img {
+    width: 12vw;
+}
+
 .introduction img {
     width: 175px;
     height: 175px;
@@ -29,4 +33,10 @@ section {
 
 h2 span {
     background: linear-gradient(#ffffff 60%, #dddddd 30%);
+}
+
+@media screen and (max-width: 520px) {
+    .navbar-brand img {
+        width: 29vw;
+    }
 }
