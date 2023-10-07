@@ -26,3 +26,7 @@ section {
 .mw-650 {
     max-width: 650px;
 }
+
+h2 span {
+    background: linear-gradient(#ffffff 60%, #dddddd 30%);
+}
